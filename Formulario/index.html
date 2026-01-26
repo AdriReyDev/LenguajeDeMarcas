@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formularios</title>
+</head>
+<body>
+    <form action="formularios.html" method="post">
+        <!--Formulario 1-->
+            <label for="Formulario 1" class="Formulario">Formulario 1</label>
+            <p>
+                <fieldset>
+                    <legend >Datos personales</legend>
+                    <form >
+                        <input type="radio">
+                        <label for="ingles" >Inglés</label>
+                        <br>
+                        <input type="radio">
+                        <label for="Español" >Español</label>
+                        <br>
+                        <input type="radio">
+                        <label for="Francés" >Francés</label>
+                    </form>
+                    <br>
+                    <label for="Idioma"></label>
+                    <select id="Idioma">
+                        <option value="Español">Español</option>
+                        <option value="Frances">Francés</option>
+                        <option value="Ingles">Inglés</option>
+                    </select>
+                    <br>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" name="Nombre">
+                    <br>
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" name="Nombre">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Información complementaria</legend>
+                    <label for="Genero"></label>
+                    <select id="Genero" size="2px">
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+                    <br>
+                    <input type="checkbox" name="Mujer">
+                    <label for="Mujer">Mujer</label>
+                    <br>
+                    <input type="checkbox" name="Hombre">
+                    <label for="Hombre">Hombre</label>
+                    <br>
+                    <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                    <input type="date">
+                </fieldset>
+                
+            </p>
+            <p>
+                <!--Formulario 2-->
+                <label for="Forulario 2" class="Formulario">Formulario 2</label>
+                <fieldset>
+                    <legend>Indique sus preferencias por favor</legend>
+                    <p>
+                        <label for="Elija una Fecha">Elija una fecha:</label>
+                        <input type="date" name="Elija una fecha">
+
+                        <div class="contenedor-file">
+                        <label for="Elija un fichero" class="boton-examinar-personalizado">
+                            Examinar
+                        </label>
+                        <span class="nombre-fichero-seleccionado">No se ha encontrado ningún archivo.</span>
+                        <input type="file" name="Elija un fichero" id="Elija un fichero" class="input-oculto">
+                        </div>    
+                        <div>
+                        <input type="radio" name="AMD">
+                        <label for="AMD">AMD</label>
+                        <input type="radio" name="Intel i5">
+                        <label for="Intel i5">Intel i5</label>
+                        <input type="radio" name="Intel i7">
+                        <label for="Intel i7">Intel i7</label>
+                        </div>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Indique sus preferencias por favor</legend>
+                    <input type="radio" name="Matemáticas">
+                    <label for="Matemáticas">Matemáticas</label>
+                    <input type="radio" name="Historia">
+                    <label for="Historia">Historia</label>
+                    <input type="radio" name="Geografía">
+                    <label for>Geografía</label>
+                    <input type="radio" name="Lengua">
+                    <label for="Lengua">Lengua</label>
+                    <br>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" name="Nombre">
+                    <br>
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" name="Apellidos">
+                    <br>
+                    <label for="Dirección">Dirección</label>
+                    <input type="text" name="Dirección">
+                    <p>
+                        <label for="Elija un color">Elija uncolor</label>
+                        <input type="color" name="Elija un color"
+                            id="Elija un color">
+                        <br>
+                        <input style="width: 200px; height: 100px;"
+                            placeholder="Utilice este cuadro para escribir"
+                            type="text" name id>
+                        <br>
+                        <label for="Elija una fecha">Elija una fecha:</label>
+                        <input type="date" name="Fecha">
+                        <br>
+                        <label for="Idioma"></label>
+                        <select name="Idioma" id="Idioma">
+                            <option value="Inglés">Inglés</option>
+                            <option value="Español">Español</option>
+                            <option value="Francés">Francés</option>
+                        </select>
+                        <br>
+                        <label for="Hora">Elija una hora</label>
+                        <input type="time">
+                       <div class="contenedor-file">
+                        <label for="Elija un fichero" class="boton-examinar-personalizado">
+                            Examinar
+                        </label>
+                        <span class="nombre-fichero-seleccionado">No se ha encontrado ningún archivo.</span>
+                        <input type="file" name="Elija un fichero" id="Elija un fichero" class="input-oculto">
+                        </div>    
+                        <input type="checkbox" name="Mujer">
+                        <label for="Mujer">Mujer</label>
+                        <input type="checkbox" name="Hombre">
+                        <label for="Hombre">Hombre</label>
+                    </p>
+                </fieldset>
+                <p>
+                    <!--Formulario 3-->
+                    <label for="Formulario3" class="Formulario">Formulario 3</label>
+                    <fieldset>
+                        <legend>Completar</legend>
+                        <p>
+                            <label for="Color">Elija un color:</label>
+                            <input type="color">
+                            <br>
+                            <input placeholder="Escribe un texto" type="text"
+                                style="width: 300px; height: 100px;">
+                            <br>
+                            <label for="Lenguaje"></label>
+                            <select name="Java" id="Lenguaje">
+                                <option value="Java">Java</option>
+                            </select>
+                            <br>
+                            <input type="checkbox" name="ASIR">
+                            <label for="ASIR">ASIR</label>
+                            <input type="checkbox" name="DAM">
+                            <label for="DAM">DAM</label>
+                            <input type="checkbox" name="ASIR">
+                            <label for="DAW">DAW</label>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Rellene las opciones siguiente</legend>
+                        <br>
+                        <label for="fecha">Elija una fecha</label>
+                        <input type="date" name="fecha">
+                       <div class="contenedor-file">
+                        <label for="Elija un fichero" class="boton-examinar-personalizado">
+                            Examinar
+                        </label>
+                        <span class="nombre-fichero-seleccionado">No se ha encontrado ningún archivo.</span>
+                        <input type="file" name="Elija un fichero" id="Elija un fichero" class="input-oculto">
+                        </div>    
+                        <label for="cursos"></label>
+                        <select name="cursos" id="cursos" size="4">
+                            <option value="SMIR">SMIR</option>
+                            <option value="ASIR">ASIR</option>
+                            <option value="DAM">DAM</option>
+                            <option value="DAW">DAW</option>
+                        </select>
+                    </fieldset>
+
+                </p>
+                <p>
+                    <!--Formulario 4-->
+                    <label for="Formulario 4" class="Formulario">Formulario 4</label>
+                    <fieldset>
+                        <legend>Completar</legend>
+                        <input type="radio" name="Lenguaje de marcas">
+                        <label for="Lenguaje de marcas">Lenguaje de
+                            marcas</label>
+                        <br>
+                        <input type="radio" name="Programacion">
+                        <label for="Programacion">Programacion</label>
+                        <br>
+                        <input type="radio" name="Desarrollo de interfaces">
+                        <label for="Desarrollo de interfaces">Desarrollo de
+                            interfaces</label>
+                        <br>
+                        <input type="radio" name="Redes">
+                        <label for="Redes">Redes</label>
+                        <p>
+                            <input type="checkbox" name="Notepad">
+                            <label for="Notepad">Notepad</label>
+                            <input type="checkbox" name="Sublime">
+                            <label for="Sublime">Sublime</label>
+                            <input type="checkbox" name="Word">
+                            <label for="Word">Word</label>
+                            <br>
+                            <input type="text"
+                                placeholder="Escriba aqui un texto"
+                                style="width: 400px; height: 50px;">
+                            <br>
+                            <label for="Procesador"></label>
+                            <select name="Procesador" id="Procesador">
+                                <option value="AMD">AMD</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                </p>
+            </p>
+        </form>
+</body>
+</html>

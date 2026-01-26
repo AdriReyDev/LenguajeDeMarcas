@@ -1,0 +1,120 @@
+body {
+
+    background-color: rgb(28, 0, 32);
+    
+}
+
+fieldset {
+
+    border-color: rgb(255, 160, 92);
+    border-radius: 20px;
+    background: linear-gradient(rgb(44, 0, 39), rgba(205, 0, 251, 0.355));
+    height: 50%;
+    font-weight: bold;
+}
+
+legend {
+
+    color: rgb(47, 255, 0);
+
+}
+
+.Formulario {
+
+    color: rgb(3, 206, 247);
+
+}
+
+.Form {
+
+
+    font-size: 90% monospace;
+
+    color: rgb(246, 246, 246);
+
+}
+
+
+input {
+
+border-radius: 20px;
+background-color: rgb(28, 0, 32);
+color: rgb(247, 247, 247);
+font-size: 14px;
+
+}
+input:hover{
+
+    background-color: rgb(247, 247, 247);
+    color: rgb(28, 0, 32);
+    
+}
+
+select, option{
+
+    background-color: rgb(28, 0, 32);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+select:hover, option:hover{
+
+    background-color:rgb(28, 0, 32);
+    color:  rgb(0, 255, 0);
+    
+}
+
+*{
+
+    color: tan;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+
+#Idioma{
+
+   background-color: rgb(28, 0, 32);
+
+}
+.input-oculto {
+    /* Oculta el input real pero lo mantiene funcional */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* 2. ESTILIZAR el botón visible (el label) */
+.boton-examinar-personalizado {
+    /* Color y Formato */
+    background-color: #050000; /* Color que elijas para el fondo del botón */
+    color: #35f600;             /* Color del texto del botón */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;      /* Bordes redondeados */
+    cursor: pointer;         /* Cursor de mano para indicar que es clickeable */
+    
+    /* Formato de texto */
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* 3. Estilo al pasar el ratón (opcional) */
+.boton-examinar-personalizado:hover {
+    background-color: #0dff00;
+    color: #050000;
+}
+
+.nombre-fichero-seleccionado {
+    /* El span hereda el color de texto del contenedor, 
+       pero aseguramos que se vea bien y tenga espacio. */
+    margin-left: 10px;
+    font-size: 14px;
+    color: #35f600; /* Color verde para verse sobre el fondo morado oscuro */
+}
