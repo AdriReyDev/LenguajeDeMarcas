@@ -1,0 +1,32 @@
+div {
+    margin: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+div fieldset {
+    border-radius: 10px;
+}
+
+.form {
+    margin: 0%;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: rgb(190, 246, 248);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: darksalmon;
+    font-weight: bolder;
+    color: snow;
+    transform: scale(1.1);
+    cursor: pointer;
+}
